@@ -44,7 +44,8 @@ public class Rekognition {
 		db = new Database();
 		db.dbConnect();
 		// System.out.println("Hallå");
-		
+		BasicAWSCredentials awsCreds = new BasicAWSCredentials("AKIAI3CI3Y2D7WIJWQZA",
+				"uVHEbKMDQQb8M16aXoR7U/BVYtooxpS25fgV0Y3l");
 		String photo;
 		String searchWay;
 		// String photo = args[0];
